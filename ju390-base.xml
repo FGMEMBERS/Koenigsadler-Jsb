@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <sim include="Systems/views.xml">
+
+    <description>Junkers Ju 390 (YASim)</description>
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.2</aircraft-version>
+    <status>Alpha</status>
+
+    <fuel-fraction>1</fuel-fraction>
+
+    <startup>
+      <splash-texture>Aircraft/Junkers-Ju-390/ju390-splash.png</splash-texture>
+    </startup>
+
+    <model>
+      <path>Aircraft/Junkers-Ju-390/Models/ju390.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <systems>
+      <electrical>
+        <path>Aircraft/Generic/generic-electrical.xml</path>
+      </electrical>  
+    </systems> 
+
+    <sound>
+      <path>Aircraft/Junkers-Ju-390/Sounds/ju390-sound.xml</path>
+    </sound>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic> 
+        <int type="int" n="0">  0 </int>                                           <!--  0 immat -->
+        <int type="int" n="1">  0 </int>                                           <!--  1 immat -->
+        <int type="int" n="2">  0 </int>                                           <!--  2 immat -->
+        <int type="int" n="3">  0 </int>                                           <!--  3 immat -->
+        <int type="int" n="4">  0 </int>                                           <!--  4 immat -->
+        <int type="int" n="5">  0 </int>                                           <!--  5 immat -->
+        <int type="bool" n="6" alias="/smoke/active"> 0 </int>                     <!--  6 start smoke -->
+        <int type="int" n="7" alias="smoke/particlepersec"> 50 </int>              <!--  7 particlepersec -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>           <!-- 10 reserved for bombable mode -->
+        <float n="0" alias="/sim/model/door-positions/crew/position-norm"/>
+        <float n="1" alias="/sim/model/door-positions/passenger/position-norm"/>
+        <float n="2" alias="/position/gear-agl-m"> 0 </float>                      <!-- altitude for MP shadow -->
+        <float n="3" alias="/position/altitude-ft"> 0 </float>                     <!-- altitude for Smoke/Trail -->
+        <float n="4" alias="/engines/engine[0]/cranking"/>
+        <float n="5" alias="/engines/engine[1]/cranking"/>
+        <float n="6" alias="/engines/engine[2]/cranking"/>
+        <float n="7" alias="/engines/engine[3]/cranking"/>
+        <float n="8" alias="/engines/engine[4]/cranking"/>
+        <float n="9" alias="/engines/engine[5]/cranking"/>
+        <float n="10" alias="/engines/engine[0]/rpm"/>
+        <float n="11" alias="/engines/engine[1]/rpm"/>
+        <float n="12" alias="/engines/engine[2]/rpm"/>
+        <float n="13" alias="/engines/engine[3]/rpm"/>
+        <float n="14" alias="/engines/engine[4]/rpm"/>
+        <float n="15" alias="/engines/engine[5]/rpm"/>
+        <!-- For Bombable -->
+        <int type="int" n="10" alias="controls/armament/trigger">0</int>
+        <string n="9" type="string" />
+      </generic>
+    </multiplay>
+
+    <help include="Systems/help.xml"/>
+
+    <menubar include="Dialogs/ju390-menu.xml"/>
+
+  </sim>
+
+  <controls>
+    <engines>
+      <engine n="0">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="1">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="2">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="3">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="4">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+      <engine n="5">
+        <boost type="double">0</boost>
+        <magnetos>0</magnetos>
+      </engine>
+    </engines>
+  </controls>
+
+  <engines>
+    <engine n="0">
+      <engine-num type="int">0</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="1">
+      <engine-num type="int">1</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="2">
+      <engine-num type="int">2</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="3">
+      <engine-num type="int">3</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="4">
+      <engine-num type="int">4</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+    <engine n="5">
+      <engine-num type="int">5</engine-num>
+      <rpm>500</rpm>
+      <running>false</running>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Systems/ju390-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <doors>
+      <file>Aircraft/Junkers-Ju-390/Nasal/doors.nas</file>
+    </doors>
+    <ju390>
+      <file>Aircraft/Junkers-Ju-390/Nasal/liveries.nas</file>
+    </ju390>
+  </nasal>
+
+</PropertyList>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m> -0.74960 </y-m>
+      <z-m> -0.08693 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m> -0.75457 </y-m>
+      <z-m> -0.00930 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m> -0.74742 </y-m>
+      <z-m>  0.10404 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m> -0.72891 </y-m>
+      <z-m>  0.19531 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m> -0.17717 </y-m>
+      <z-m>  0.73353 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.75462 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.09500 </y-m>
+      <z-m> 0.75862 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.18773 </y-m>
+      <z-m> 0.73090 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.28370 </y-m>
+      <z-m> 0.69926 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.73827 </y-m>
+      <z-m> 0.15624 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m> 0.06357 </x-m>
+      <y-m> 0.75170 </y-m>
+      <z-m> 0.06636 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m>  0.75398 </y-m>
+      <z-m> -0.03114 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m>  0.74362 </y-m>
+      <z-m> -0.12838 </z-m>
+    </offsets>
+  </model>
+
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingLI.xml</path>
+    <offsets>
+      <x-m>  0.06357 </x-m>
+      <y-m>  0.72048 </y-m>
+      <z-m> -0.22442 </z-m>
+    </offsets>
+  </model>
+
+</PropertyList>

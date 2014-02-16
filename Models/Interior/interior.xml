@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>intporte1</object-name>
+    <object-name>intporte2</object-name>
+    <object-name>intsoute</object-name>
+    <object-name>cloison</object-name>
+    <object-name>inttourvitres</object-name>
+
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <animation>
+    <type>shader</type>
+    <shader>chrome</shader>
+    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <condition>
+      <not><property>sim/rendering/rembrandt/enabled</property></not>
+    </condition>
+    <object-name>intvitres</object-name>
+  </animation>
+
+  <!--  REMBRANDT support for transparent objects-->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <condition>
+      <property>sim/rendering/rembrandt/enabled</property>
+    </condition>
+    <object-name>intvitres</object-name>
+  </effect> 
+
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Junkers-Ju-390/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> -14.60 </x-m>
+      <y-m>  -0.54 </y-m>
+      <z-m>   0.12 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Planche de bord -->
+  <model>
+    <path>Aircraft/Junkers-Ju-390//Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> -15.19856 </x-m>
+      <y-m>   0.00000 </y-m>
+      <z-m>   0.06088 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Ouverture de la porte coté gauche -->
+  <animation>
+    <name>IntDemiePorte1</name>
+    <object-name>intporte1</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>IntDemiePorte1</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>IntDemiePorte1</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -160 </factor>
+    <center>
+      <x-m>  6.36822 </x-m>
+      <y-m> -1.45194 </y-m>
+      <z-m>  0.08845 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <animation>
+    <name>IntDemiePorte2</name>
+    <object-name>intporte2</object-name>
+  </animation>
+
+  <animation>
+    <type>pick</type>
+    <object-name>IntDemiePorte2</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+
+  <animation>
+    <type>rotate</type>
+    <object-name>IntDemiePorte2</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 160 </factor>
+    <center>
+      <x-m>  7.93245 </x-m>
+      <y-m> -1.36297 </y-m>
+      <z-m>  0.13362 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+
+  <!-- Portes cargo -->
+  <animation>
+    <type>pick</type>
+    <object-name>intsoute</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>intsoute</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+      <entry><ind> 0.3 </ind><dep>  9.00 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 36.69 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  4.07643 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -1.74046 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+
+</PropertyList>
