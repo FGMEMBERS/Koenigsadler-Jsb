@@ -18,27 +18,15 @@
     <object-name>intvitres</object-name>
   </animation>
 
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
-    <condition>
-      <not><property>sim/rendering/rembrandt/enabled</property></not>
-    </condition>
-    <object-name>intvitres</object-name>
-  </animation>
-
-  <!--  REMBRANDT support for transparent objects-->
+  <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Effects/model-transparent</inherits-from>
-    <condition>
-      <property>sim/rendering/rembrandt/enabled</property>
-    </condition>
+    <inherits-from>Aircraft/Junkers-Ju-390/Models/Effects/Glass/glass</inherits-from>
     <object-name>intvitres</object-name>
-  </effect> 
-
+  </effect>
+  
   <!-- Pilote -->
   <model>
+    <name>Pilote</name>
     <path>Aircraft/Junkers-Ju-390/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -14.60 </x-m>
@@ -49,6 +37,7 @@
 
   <!-- Planche de bord -->
   <model>
+    <name>Panel</name>
     <path>Aircraft/Junkers-Ju-390//Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -15.19856 </x-m>
@@ -57,12 +46,56 @@
     </offsets>
   </model>
 
+  <animation>
+    <name>IntAvionComplet</name>
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>intporte1</object-name>
+    <object-name>intporte2</object-name>
+    <object-name>intsoute</object-name>
+    <object-name>cloison</object-name>
+    <object-name>inttourvitres</object-name>
+    <object-name>intvitres</object-name>
+    <object-name>Pilote</object-name>
+    <object-name>Panel</object-name>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>IntAvionComplet</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <condition>
+      <and>
+        <property>/gear/gear[0]/wow</property>
+        <property>/gear/gear[1]/wow</property>
+        <property>/gear/gear[2]/wow</property>
+        <property>/gear/gear[3]/wow</property>
+        <property>/gear/gear[4]/wow</property>
+      </and>
+    </condition>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 0.3 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -8 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -6.85546 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -4.35285 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
   <!-- Ouverture de la porte coté gauche -->
   <animation>
     <name>IntDemiePorte1</name>
     <object-name>intporte1</object-name>
   </animation>
-
+  
   <animation>
     <type>pick</type>
     <object-name>IntDemiePorte1</object-name>
@@ -76,7 +109,7 @@
       </binding>
     </action>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>IntDemiePorte1</object-name>
@@ -93,12 +126,12 @@
       <z> 1 </z>
     </axis>
   </animation>
-
+  
   <animation>
     <name>IntDemiePorte2</name>
     <object-name>intporte2</object-name>
   </animation>
-
+  
   <animation>
     <type>pick</type>
     <object-name>IntDemiePorte2</object-name>
@@ -112,7 +145,7 @@
       </binding>
     </action>
   </animation>
-
+  
   <animation>
     <type>rotate</type>
     <object-name>IntDemiePorte2</object-name>
@@ -129,7 +162,7 @@
       <z> 1 </z>
     </axis>
   </animation>
-
+  
   <!-- Portes cargo -->
   <animation>
     <type>pick</type>
@@ -165,5 +198,5 @@
       <z> 0 </z>
     </axis>
   </animation>
-
+  
 </PropertyList>
