@@ -10,10 +10,10 @@
     <aero>ju390-yasim</aero>
 
     <rating>
-      <FDM type="int">     0 </FDM>
+      <FDM type="int">     1 </FDM>
       <systems type="int"> 0 </systems>
-      <cockpit type="int"> 0 </cockpit>
-      <model type="int">   2 </model>
+      <cockpit type="int"> 1 </cockpit>
+      <model type="int">   4 </model>
     </rating>
 
   </sim>

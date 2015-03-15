@@ -72,6 +72,8 @@
 
   </sim>
 
+  <input include="Systems/ju390-keyboard.xml"/>
+  
   <controls>
     <engines>
       <engine n="0">
@@ -134,16 +136,13 @@
     </engine>
   </engines>
 
-  <input>
-    <keyboard include="Systems/ju390-keyboard.xml"/>
-  </input>
- 
   <nasal>
     <doors>
       <file>Aircraft/Junkers-Ju-390/Nasal/doors.nas</file>
     </doors>
     <ju390>
       <file>Aircraft/Junkers-Ju-390/Nasal/liveries.nas</file>
+      <file>Aircraft/Junkers-Ju-390/Nasal/light.nas</file>
     </ju390>
   </nasal>
 

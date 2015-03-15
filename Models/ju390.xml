@@ -227,9 +227,6 @@
 
   <effect>
     <inherits-from>Aircraft/Generic/Effects/Fuselagereflect</inherits-from>
-    <condition>
-      <not><property>sim/rendering/rembrandt/enabled</property></not>
-    </condition>
     <object-name>fuselage</object-name>
     <object-name>aileronG</object-name>
     <object-name>aileronD</object-name>
@@ -273,68 +270,23 @@
     <object-name>soute</object-name>
   </effect>
 
+  <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Generic/Effects/model-combined-deferred</inherits-from>
-    <condition>
-      <property>sim/rendering/rembrandt/enabled</property>
-    </condition>
-    <object-name>fuselage</object-name>
-    <object-name>ailes</object-name>
-    <object-name>aileronG</object-name>
-    <object-name>aileronD</object-name>
-    <object-name>voletG</object-name>
-    <object-name>voletD</object-name>
-    <object-name>ailes2</object-name>
-    <object-name>derives</object-name>
-    <object-name>profondeurG</object-name>
-    <object-name>profondeurD</object-name>
-    <object-name>derives</object-name>
-    <object-name>directionG</object-name>
-    <object-name>directionD</object-name>
-    <object-name>moteurs</object-name>
-    <object-name>tourvitres</object-name>
-    <object-name>bolGE</object-name>
-    <object-name>bolGC</object-name>
-    <object-name>bolGI</object-name>
-    <object-name>bolDI</object-name>
-    <object-name>bolDC</object-name>
-    <object-name>bolDE</object-name>
-    <object-name>porte1</object-name>
-    <object-name>porte2</object-name>
-    <object-name>porteGI1L</object-name>
-    <object-name>porteGI1R</object-name>
-    <object-name>porteGI2L</object-name>
-    <object-name>porteGI2R</object-name>
-    <object-name>porteGE1L</object-name>
-    <object-name>porteGE1R</object-name>
-    <object-name>porteGE2L</object-name>
-    <object-name>porteGE2R</object-name>
-    <object-name>porteDI1L</object-name>
-    <object-name>porteDI1R</object-name>
-    <object-name>porteDI2L</object-name>
-    <object-name>porteDI2R</object-name>
-    <object-name>porteDE1L</object-name>
-    <object-name>porteDE1R</object-name>
-    <object-name>porteDE2L</object-name>
-    <object-name>porteDE2R</object-name>
-    <object-name>antennes</object-name>
-    <object-name>soute</object-name>
-  </effect>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>Aircraft/Generic/Effects/glass_shader.png</texture>
+    <inherits-from>Aircraft/Junkers-Ju-390/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
-  </animation>
-
-  <!--  REMBRANDT support for transparent objects -->
+  </effect>
+  
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>vitres</object-name>
+  </effect>
+  
+  <!-- working for Rembrandt -->
   <effect>
     <inherits-from>Effects/model-transparent</inherits-from>
     <condition>
       <property>sim/rendering/rembrandt/enabled</property>
     </condition>
-    <object-name>vitres</object-name>
     <object-name>propblurGE</object-name>
     <object-name>propblurGC</object-name>
     <object-name>propblurGI</object-name>
@@ -348,7 +300,7 @@
     <object-name>propdiscDC</object-name>
     <object-name>propdiscDE</object-name>
   </effect>
-
+  
   <!-- Une ombre pour OSG en attendant Rembrandt -->
   <model>
     <path>Aircraft/Koenigsadler-Jsb/Models/shadow.xml</path>
@@ -1891,84 +1843,6 @@
     </axis>
   </animation>
 
-  <!-- Portes cargo -->
-  <animation>
-    <type>pick</type>
-    <object-name>soute</object-name>
-    <visible>true</visible>
-    <action>
-      <button>0</button>
-      <repeatable>false</repeatable>
-      <binding>
-        <command>nasal</command>
-        <script>doors.passenger.toggle();</script>
-      </binding>
-    </action>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>soute</object-name>
-    <property>sim/model/door-positions/passenger/position-norm</property>
-    <interpolation>
-      <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
-      <entry><ind> 0.3 </ind><dep>  9.00 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> 36.69 </dep></entry>
-    </interpolation>
-    <center>
-      <x-m>  4.07643 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -1.74046 </z-m>
-    </center>
-    <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
-    </axis>
-  </animation>
-
-  <animation>
-    <name>AvionComplet</name>
-    <object-name>AvionExterieur</object-name>
-    <object-name>Interieur</object-name>
-    <object-name>Moteur0</object-name>
-    <object-name>Moteur1</object-name>
-    <object-name>Moteur2</object-name>
-    <object-name>Moteur3</object-name>
-    <object-name>Moteur4</object-name>
-    <object-name>Moteur5</object-name>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>AvionComplet</object-name>
-    <property>sim/model/door-positions/passenger/position-norm</property>
-    <condition>
-      <and>
-        <property>/gear/gear[0]/wow</property>
-        <property>/gear/gear[1]/wow</property>
-        <property>/gear/gear[2]/wow</property>
-        <property>/gear/gear[3]/wow</property>
-        <property>/gear/gear[4]/wow</property>
-      </and>
-    </condition>
-    <interpolation>
-      <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
-      <entry><ind> 0.3 </ind><dep>  0 </dep></entry>
-      <entry><ind> 1.0 </ind><dep> -8 </dep></entry>
-    </interpolation>
-    <center>
-      <x-m> -6.85546 </x-m>
-      <y-m>  0.00000 </y-m>
-      <z-m> -4.35285 </z-m>
-    </center>
-    <axis>
-      <x> 0 </x>
-      <y> 1 </y>
-      <z> 0 </z>
-    </axis>
-  </animation>
-
   <!-- Rotation des roues lors du roulage -->
   <animation>
     <type>spin</type>
@@ -2055,4 +1929,210 @@
     </axis>
   </animation>
 
+  <!-- Lights -->
+  <model>
+    <name>Light1</name>
+    <path>Aircraft/Junkers-Ju-390/Models/lights/beacon.xml</path>
+    <offsets>
+      <x-m> 14.611 </x-m>
+      <y-m>  7.066 </y-m>
+      <z-m>  4.345 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Light2</name>
+    <path>Aircraft/Junkers-Ju-390/Models/lights/RedLight.xml</path>
+    <offsets>
+      <x-m>  -4.246 </x-m>
+      <y-m> -25.123 </y-m>
+      <z-m>  -0.266 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Light3</name>
+    <path>Aircraft/Junkers-Ju-390/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m>  -4.256 </x-m>
+      <y-m> -25.123 </y-m>
+      <z-m>  -0.266 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Light4</name>
+    <path>Aircraft/Junkers-Ju-390/Models/lights/GreenLight.xml</path>
+    <offsets>
+      <x-m> -4.246 </x-m>
+      <y-m> 25.123 </y-m>
+      <z-m> -0.266 </z-m>
+    </offsets>
+  </model>
+  
+  <model>
+    <name>Light5</name>
+    <path>Aircraft/Junkers-Ju-390/Models/lights/StrobeLight.xml</path>
+    <offsets>
+      <x-m> -4.256 </x-m>
+      <y-m> 25.123 </y-m>
+      <z-m> -0.266 </z-m>
+    </offsets>
+  </model>
+  
+  <animation>
+    <name>AvionComplet</name>
+    <object-name>AvionExterieur</object-name>
+    <object-name>Moteur0</object-name>
+    <object-name>Moteur1</object-name>
+    <object-name>Moteur2</object-name>
+    <object-name>Moteur3</object-name>
+    <object-name>Moteur4</object-name>
+    <object-name>Moteur5</object-name>
+    <object-name>Light1</object-name>
+    <object-name>Light2</object-name>
+    <object-name>Light3</object-name>
+    <object-name>Light4</object-name>
+    <object-name>Light5</object-name>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>AvionComplet</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <condition>
+      <and>
+        <property>/gear/gear[0]/wow</property>
+        <property>/gear/gear[1]/wow</property>
+        <property>/gear/gear[2]/wow</property>
+        <property>/gear/gear[3]/wow</property>
+        <property>/gear/gear[4]/wow</property>
+      </and>
+    </condition>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0 </dep></entry>
+      <entry><ind> 0.3 </ind><dep>  0 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> -8 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m> -6.85546 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -4.35285 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <!-- Ouverture de la porte coté gauche -->
+  <animation>
+    <name>DemiePorte1</name>
+    <object-name>porte1</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>DemiePorte1</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>DemiePorte1</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> -160 </factor>
+    <center>
+      <x-m>  6.36822 </x-m>
+      <y-m> -1.45194 </y-m>
+      <z-m>  0.08845 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <name>DemiePorte2</name>
+    <object-name>porte2</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>DemiePorte2</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>DemiePorte2</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 160 </factor>
+    <center>
+      <x-m>  7.93245 </x-m>
+      <y-m> -1.36297 </y-m>
+      <z-m>  0.13362 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+  
+  <!-- Portes cargo -->
+  <animation>
+    <type>pick</type>
+    <object-name>soute</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.passenger.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>rotate</type>
+    <object-name>soute</object-name>
+    <property>sim/model/door-positions/passenger/position-norm</property>
+    <interpolation>
+      <entry><ind> 0.0 </ind><dep>  0.00 </dep></entry>
+      <entry><ind> 0.3 </ind><dep>  9.00 </dep></entry>
+      <entry><ind> 1.0 </ind><dep> 36.69 </dep></entry>
+    </interpolation>
+    <center>
+      <x-m>  4.07643 </x-m>
+      <y-m>  0.00000 </y-m>
+      <z-m> -1.74046 </z-m>
+    </center>
+    <axis>
+      <x> 0 </x>
+      <y> 1 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
 </PropertyList>
