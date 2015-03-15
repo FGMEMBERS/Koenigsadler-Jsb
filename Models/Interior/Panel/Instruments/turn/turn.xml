@@ -17,7 +17,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Junkers-Ju-390/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Koenigsadler-Jsb/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitre</object-name>
   </effect>
   

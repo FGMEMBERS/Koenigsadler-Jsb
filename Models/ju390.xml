@@ -272,7 +272,7 @@
 
   <!-- working for Rembrandt -->
   <effect>
-    <inherits-from>Aircraft/Junkers-Ju-390/Models/Effects/Glass/glass</inherits-from>
+    <inherits-from>Aircraft/Koenigsadler-Jsb/Models/Effects/Glass/glass</inherits-from>
     <object-name>vitres</object-name>
   </effect>
   
@@ -1932,7 +1932,7 @@
   <!-- Lights -->
   <model>
     <name>Light1</name>
-    <path>Aircraft/Junkers-Ju-390/Models/lights/beacon.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/lights/beacon.xml</path>
     <offsets>
       <x-m> 14.611 </x-m>
       <y-m>  7.066 </y-m>
@@ -1942,7 +1942,7 @@
   
   <model>
     <name>Light2</name>
-    <path>Aircraft/Junkers-Ju-390/Models/lights/RedLight.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/lights/RedLight.xml</path>
     <offsets>
       <x-m>  -4.246 </x-m>
       <y-m> -25.123 </y-m>
@@ -1952,7 +1952,7 @@
   
   <model>
     <name>Light3</name>
-    <path>Aircraft/Junkers-Ju-390/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m>  -4.256 </x-m>
       <y-m> -25.123 </y-m>
@@ -1962,7 +1962,7 @@
   
   <model>
     <name>Light4</name>
-    <path>Aircraft/Junkers-Ju-390/Models/lights/GreenLight.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/lights/GreenLight.xml</path>
     <offsets>
       <x-m> -4.246 </x-m>
       <y-m> 25.123 </y-m>
@@ -1972,7 +1972,7 @@
   
   <model>
     <name>Light5</name>
-    <path>Aircraft/Junkers-Ju-390/Models/lights/StrobeLight.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/lights/StrobeLight.xml</path>
     <offsets>
       <x-m> -4.256 </x-m>
       <y-m> 25.123 </y-m>

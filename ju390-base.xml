@@ -12,11 +12,11 @@
     <fuel-fraction>1</fuel-fraction>
 
     <startup>
-      <splash-texture>Aircraft/Junkers-Ju-390/ju390-splash.png</splash-texture>
+      <splash-texture>Aircraft/Koenigsadler-Jsb/ju390-splash.png</splash-texture>
     </startup>
 
     <model>
-      <path>Aircraft/Junkers-Ju-390/Models/ju390.xml</path>
+      <path>Aircraft/Koenigsadler-Jsb/Models/ju390.xml</path>
       <livery>
         <file type="string">default</file>
       </livery>
@@ -29,7 +29,7 @@
     </systems> 
 
     <sound>
-      <path>Aircraft/Junkers-Ju-390/Sounds/ju390-sound.xml</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/ju390-sound.xml</path>
     </sound>
 
     <multiplay>
@@ -138,11 +138,11 @@
 
   <nasal>
     <doors>
-      <file>Aircraft/Junkers-Ju-390/Nasal/doors.nas</file>
+      <file>Aircraft/Koenigsadler-Jsb/Nasal/doors.nas</file>
     </doors>
     <ju390>
-      <file>Aircraft/Junkers-Ju-390/Nasal/liveries.nas</file>
-      <file>Aircraft/Junkers-Ju-390/Nasal/light.nas</file>
+      <file>Aircraft/Koenigsadler-Jsb/Nasal/liveries.nas</file>
+      <file>Aircraft/Koenigsadler-Jsb/Nasal/light.nas</file>
     </ju390>
   </nasal>
 
