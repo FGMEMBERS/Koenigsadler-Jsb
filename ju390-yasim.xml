@@ -47,7 +47,7 @@
       <control-setting axis="/controls/gear/gear-down" value="1"/>
     </approach>
 
-    <cruise speed="240" alt="21000" fuel="0.1">
+    <cruise speed="231" alt="16000" fuel="0.1">
       <control-setting axis="/controls/engines/engine[0]/throttle" value="1"/>
       <control-setting axis="/controls/engines/engine[1]/throttle" value="1"/>
       <control-setting axis="/controls/engines/engine[2]/throttle" value="1"/>
@@ -135,7 +135,7 @@
            <control-output control="FLAP0" prop="/surface-positions/elevator-pos-norm"/>
     </hstab>
 
-    <!-- Ruder -->
+    <!-- Rudder -->
     <vstab x="-14.29623" y="7.52592" z="0.10308"
            chord="3.670"
            length="4.194"
@@ -179,16 +179,16 @@
     <propeller x="9.68312" y="11.80005" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.22494" y="11.80005" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[0]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">
@@ -204,16 +204,16 @@
     <propeller x="10.06312" y="7.91921" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.61294" y="7.91921" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[1]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">
@@ -229,16 +229,16 @@
     <propeller x="10.07000" y="3.74842" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.61294" y="3.74842" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[2]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">
@@ -254,16 +254,16 @@
     <propeller x="10.07000" y="-3.74842" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.61294" y="-3.74842" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[3]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">
@@ -279,16 +279,16 @@
     <propeller x="10.06312" y="-7.91921" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.61294" y="-7.91921" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[4]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">
@@ -304,16 +304,16 @@
     <propeller x="9.68312" y="-11.80005" z="-1.09583"
                mass="2226"
                moment="50"
-               radius="1.9"
-               cruise-speed="236"
+               radius="2.5"
+               cruise-speed="231"
                cruise-rpm="2550"
-               cruise-power="1500"
+               cruise-power="1750"
                cruise-alt="16000"
                min-rpm="250"
                max-rpm="2800">
                <actionpt x="10.22494" y="-11.80005" z="-1.09583"/>
                <control-input axis="/controls/engines/engine[5]/propeller-pitch" control="ADVANCE"/>
-               <piston-engine eng-power="1742"
+               <piston-engine eng-power="1942"
                               eng-rpm="2700"
                               displacement="2560"
                               compression="6.5">

@@ -2,16 +2,16 @@
 
 <PropertyList>
 
-  <path>ju390.ac</path>
+  <path>ju390A.ac</path>
 
   <!-- MP sound call -->
   <sound>
-    <path>Aircraft/Junkers-Ju-390/Sounds/mp-sound.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Sounds/mp-sound.xml</path>
   </sound>
 
   <nasal>
     <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/Junkers-Ju-390/Models/Liveries", 10);
+      var livery_update = aircraft.livery_update.new("Aircraft/Koenigsadler-Jsb/Models/Liveries", 10);
 
       var self = cmdarg();
 
@@ -351,7 +351,7 @@
 
   <!-- Une ombre pour OSG en attendant Rembrandt -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/shadow.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/shadow.xml</path>
     <offsets>
       <x-m>  0.00 </x-m>
       <y-m>  0.00 </y-m>
@@ -359,16 +359,16 @@
     </offsets>
   </model>
 
-  <!-- Intérieur -->
+  <!-- Interior -->
   <model>
     <name>Interieur</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Interior/interior.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Interior/interior.xml</path>
   </model>
 
   <!-- Effets sur le sol -->
-  <!-- Roue extérieure gauche -->
+  <!-- Roue exterior gauche -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/ground/ground0.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/ground/ground0.xml</path>
     <offsets>
       <x-m> -6.85546 </x-m>
       <y-m> -7.98905 </y-m>
@@ -376,9 +376,9 @@
     </offsets>
   </model>
 
-  <!-- Roue intérieure gauche -->
+  <!-- Roue interior gauche -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/ground/ground1.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/ground/ground1.xml</path>
     <offsets>
       <x-m> -6.85546 </x-m>
       <y-m> -3.80839 </y-m>
@@ -386,9 +386,9 @@
     </offsets>
   </model>
 
-  <!-- Roue intérieure droite -->
+  <!-- Roue exterior droite -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/ground/ground2.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/ground/ground2.xml</path>
     <offsets>
       <x-m> -6.85546 </x-m>
       <y-m>  3.80839 </y-m>
@@ -396,9 +396,9 @@
     </offsets>
   </model>
 
-  <!-- Roue extérieure droite -->
+  <!-- Roue exterior droite -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/ground/ground3.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/ground/ground3.xml</path>
     <offsets>
       <x-m> -6.85546 </x-m>
       <y-m>  7.98905 </y-m>
@@ -408,7 +408,7 @@
 
   <!-- Roue de queue -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/ground/ground4.xml</path>   
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/ground/ground4.xml</path>   
     <offsets>
       <x-m> 13.96681 </x-m>
       <y-m>  0.00000 </y-m>
@@ -419,7 +419,7 @@
   <!-- Cranking effects -->
   <!-- Left exterior -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-LE.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-LE.xml</path>
     <offsets>
       <x-m>  -8.38864 </x-m>
       <y-m> -11.80005 </y-m>
@@ -429,7 +429,7 @@
 
   <!-- Left center -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-LC.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-LC.xml</path>
     <offsets>
       <x-m> -8.77665 </x-m>
       <y-m> -7.91921 </y-m>
@@ -439,7 +439,7 @@
 
   <!-- Left interior -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-LI.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-LI.xml</path>
     <offsets>
       <x-m> -8.77665 </x-m>
       <y-m> -3.74842 </y-m>
@@ -449,7 +449,7 @@
 
   <!-- Right interior -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-RI.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-RI.xml</path>
     <offsets>
       <x-m> -8.77665 </x-m>
       <y-m>  3.74842 </y-m>
@@ -459,7 +459,7 @@
   
   <!-- Right center -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-RC.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-RC.xml</path>
     <offsets>
       <x-m> -8.77665 </x-m>
       <y-m>  7.91921 </y-m>
@@ -469,7 +469,7 @@
 
   <!-- Right exterior -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/all-RE.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/all-RE.xml</path>
     <offsets>
       <x-m> -8,38864 </x-m>
       <y-m> 11.80005 </y-m>
@@ -478,10 +478,10 @@
   </model>
 
   <!-- Moteurs -->
-  <!-- Extérieur gauche -->
+  <!-- Ext\E9rieur gauche -->
   <model>
     <name>Moteur0</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m>  -9.68312 </x-m>
       <y-m> -11.80005 </y-m>
@@ -492,7 +492,7 @@
   <!-- Central gauche -->
   <model>
     <name>Moteur1</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m> -10.06312 </x-m>
       <y-m>  -7.91921 </y-m>
@@ -500,10 +500,10 @@
     </offsets>
   </model>
   
-  <!-- Intérieur gauche -->
+  <!-- Int\E9rieur gauche -->
   <model>
     <name>Moteur2</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m> -10.07000 </x-m>
       <y-m>  -3.74842 </y-m>
@@ -511,10 +511,10 @@
     </offsets>
   </model>
 
-  <!-- Intérieur droit -->
+  <!-- Int\E9rieur droit -->
   <model>
     <name>Moteur3</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m> -10.07000 </x-m>
       <y-m>   3.74842 </y-m>
@@ -525,7 +525,7 @@
   <!-- Central droit -->
   <model>
     <name>Moteur4</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m> -10.06312 </x-m>
       <y-m>   7.91921 </y-m>
@@ -533,10 +533,10 @@
     </offsets>
   </model>
   
-  <!-- Extérieur droit -->
+  <!-- Exterior droit -->
   <model>
     <name>Moteur5</name>
-    <path>Aircraft/Junkers-Ju-390/Models/Engines/engine.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Engines/engine.xml</path>
     <offsets>
       <x-m> -9.68312 </x-m>
       <y-m> 11.80005 </y-m>
@@ -544,8 +544,8 @@
     </offsets>
   </model>
 
-  <!-- Les hélices --> 
-  <!-- Gauche extérieur -->
+  <!-- Les helices --> 
+  <!-- Gauche exterieur -->
   <animation>
     <name>HeliceCompleteGE</name>
     <object-name>propdiscGE</object-name>
@@ -554,7 +554,7 @@
     <object-name>bolGE</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscGE</object-name>
@@ -626,7 +626,7 @@
     <object-name>bolGC</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscGC</object-name>
@@ -689,7 +689,7 @@
     </axis>
   </animation>
 
-  <!-- Gauche intérieur -->
+  <!-- Gauche int\E9rieur -->
   <animation>
     <name>HeliceCompleteGI</name>
     <object-name>propdiscGI</object-name>
@@ -698,7 +698,7 @@
     <object-name>bolGI</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscGI</object-name>
@@ -761,7 +761,7 @@
     </axis>
   </animation>
 
-  <!-- Droite intérieur -->
+  <!-- Droite int\E9rieur -->
   <animation>
     <name>HeliceCompleteDI</name>
     <object-name>propdiscDI</object-name>
@@ -770,7 +770,7 @@
     <object-name>bolDI</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscDI</object-name>
@@ -842,7 +842,7 @@
     <object-name>bolDC</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscDC</object-name>
@@ -905,7 +905,7 @@
     </axis>
   </animation>
 
-  <!-- Droite extérieur -->
+  <!-- Droite ext\E9rieur -->
   <animation>
     <name>HeliceCompleteDE</name>
     <object-name>propdiscDE</object-name>
@@ -914,7 +914,7 @@
     <object-name>bolDE</object-name>
   </animation>
 
-  <!-- Séléction de l'objet visible en fonction des rpm -->
+  <!-- S\E9l\E9ction de l'objet visible en fonction des rpm -->
   <animation>
     <type>select</type>
     <object-name>propdiscDE</object-name>
@@ -982,7 +982,7 @@
     <type>rotate</type>
     <object-name>directionG</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor> -15 </factor>
+    <factor> 15 </factor>
     <axis>
       <x1-m> 14.90703 </x1-m>
       <y1-m> -7.44007 </y1-m>
@@ -997,7 +997,7 @@
     <type>rotate</type>
     <object-name>directionD</object-name>
     <property>surface-positions/rudder-pos-norm</property>
-    <factor> -15 </factor>
+    <factor> 15 </factor>
     <axis>
       <x1-m> 14.90703 </x1-m>
       <y1-m>  7.44007 </y1-m>
@@ -1059,7 +1059,7 @@
     <type>rotate</type>
     <object-name>aileronD</object-name>
     <property>surface-positions/right-aileron-pos-norm</property>
-    <factor> 15 </factor>
+    <factor> -15 </factor>
     <axis>
       <x1-m> -2.27454 </x1-m>
       <y1-m> 12.22580 </y1-m>
@@ -1075,7 +1075,7 @@
     <type>rotate</type>
     <object-name>voletG</object-name>
     <property>surface-positions/flap-pos-norm</property>
-    <factor> -60 </factor>
+    <factor> 60 </factor>
     <axis>
       <x1-m>  -2.44629 </x1-m>
       <y1-m> -12.22581 </y1-m>
@@ -1090,7 +1090,7 @@
     <type>rotate</type>
     <object-name>voletD</object-name>
     <property>surface-positions/flap-pos-norm</property>
-    <factor> -60 </factor>
+    <factor> 60 </factor>
     <axis>
       <x1-m> -2.44629 </x1-m>
       <y1-m>  2.06785 </y1-m>
@@ -1101,7 +1101,7 @@
     </axis>
   </animation>
 
-  <!-- Rentré des roues -->
+  <!-- Rentrez des roues -->
   <animation>
     <name>TrainGaucheExterieur</name>
     <object-name>axeGEH</object-name>
@@ -1416,7 +1416,7 @@
     </axis>
   </animation>
 
-  <!-- Ouverture de la porte coté gauche -->
+  <!-- Ouverture de la porte cot\E9 gauche -->
   <animation>
     <name>DemiePorte1</name>
     <object-name>porte1</object-name>
@@ -1489,8 +1489,8 @@
     </axis>
   </animation>
 
-  <!-- Rentré des roues -->
-  <!-- Les portes extérieur gauche -->
+  <!-- Rentr\E9 des roues -->
+  <!-- Les portes ext\E9rieur gauche -->
   <animation>
     <type>rotate</type>
     <object-name>porteGE1L</object-name>
@@ -1567,7 +1567,7 @@
     </axis>
   </animation>
 
-  <!-- Les portes intérieur gauche -->
+  <!-- Les portes int\E9rieur gauche -->
   <animation>
     <type>rotate</type>
     <object-name>porteGI1L</object-name>
@@ -1644,7 +1644,7 @@
     </axis>
   </animation>
 
-  <!-- Les portes intérieur droit -->
+  <!-- Les portes int\E9rieur droit -->
   <animation>
     <type>rotate</type>
     <object-name>porteDI1R</object-name>
@@ -1721,7 +1721,7 @@
     </axis>
   </animation>
 
-  <!-- Les portes extérieur droite -->
+  <!-- Les portes ext\E9rieur droite -->
   <animation>
     <type>rotate</type>
     <object-name>porteDE1R</object-name>
