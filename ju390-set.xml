@@ -15,6 +15,7 @@
       <cockpit type="int"> 0 </cockpit>
       <model type="int">   2 </model>
     </rating>
+    <variant-of>Junkers-Ju-390</variant-of>
 
   </sim>
 
