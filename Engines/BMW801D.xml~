@@ -41,7 +41,7 @@
 	<ratedrpm1>               2700 </ratedrpm1>
 	<ratedaltitude1 unit="FT"> 0 </ratedaltitude1>	
 
-	<ratedboost2 unit="INHG"> 18.1 </ratedboost2>
+	<ratedboost2 unit="INHG"> 16.1 </ratedboost2>
 	<ratedpower2 unit="HP">   2100 </ratedpower2>
 	<ratedrpm2>               2400 </ratedrpm2>
 	<ratedaltitude2 unit="FT"> 8000 </ratedaltitude2>	

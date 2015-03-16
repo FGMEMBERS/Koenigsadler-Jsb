@@ -3,7 +3,7 @@
 <PropertyList>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m> -0.74960 </y-m>
@@ -12,7 +12,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m> -0.75457 </y-m>
@@ -21,7 +21,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m> -0.74742 </y-m>
@@ -30,7 +30,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m> -0.72891 </y-m>
@@ -39,7 +39,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m> -0.17717 </y-m>
@@ -48,7 +48,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.00000 </y-m>
@@ -57,7 +57,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.09500 </y-m>
@@ -66,7 +66,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.18773 </y-m>
@@ -75,7 +75,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.28370 </y-m>
@@ -84,7 +84,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.73827 </y-m>
@@ -93,7 +93,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m> 0.06357 </x-m>
       <y-m> 0.75170 </y-m>
@@ -102,7 +102,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m>  0.75398 </y-m>
@@ -111,7 +111,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m>  0.74362 </y-m>
@@ -120,7 +120,7 @@
   </model>
 
   <model>
-    <path>Aircraft/Koenigsadler-Jsb/Models/Effects/cranking/crankingRE.xml</path>
+    <path>Aircraft/Junkers-Ju-390/Models/Effects/cranking/crankingRE.xml</path>
     <offsets>
       <x-m>  0.06357 </x-m>
       <y-m>  0.72048 </y-m>

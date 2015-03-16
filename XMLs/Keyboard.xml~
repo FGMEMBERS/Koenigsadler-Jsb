@@ -206,51 +206,51 @@
 		</binding>
 	</key>
 
-	<key n="78">
-		<name>N</name>
-		<desc>Propeller Pitch</desc>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[0]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[1]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[2]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[3]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[4]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-		<binding>
-			<command>property-adjust</command>
-			<property>fdm/jsbsim/propulsion/engine[5]/blade-angle</property>
-			<step type="double">1.0</step>
-			<min type="double">18</min>
-			<max type="double">45</max>
-		</binding>
-	</key>
+  <key n="78">
+    <name>N</name>
+    <desc>Propeller Pitch</desc>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[0]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[1]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[2]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[3]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[4]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+    <binding>
+      <command>property-adjust</command>
+      <property>fdm/jsbsim/propulsion/engine[5]/blade-angle</property>
+      <step type="double">1.0</step>
+      <min type="double">18</min>
+      <max type="double">45</max>
+    </binding>
+  </key>
 
 </PropertyList>

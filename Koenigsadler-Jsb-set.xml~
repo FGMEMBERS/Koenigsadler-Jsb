@@ -471,6 +471,7 @@
 			<path>Aircraft/Generic/generic-electrical.xml</path>
 		</electrical>
 		<autopilot>
+			<!-- path>Aircraft/Lancaster-Jsb/Systems/Autopilot.xml</path -->
 			<path>Aircraft/JPack/Voodoomaster/Systems/SYS7_1_autopilot.xml</path>
 		</autopilot>
 	</systems>

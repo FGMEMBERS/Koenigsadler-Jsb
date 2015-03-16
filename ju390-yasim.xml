@@ -12,7 +12,7 @@
      Maximum speed        : 505 km/h ( 272.68 kt   )
 -->
 
-<airplane mass="117092" version="YASIM_VERSION_CURRENT">
+<airplane mass="117092">
 
     <approach speed="100" aoa="4" fuel="0.3">
       <control-setting axis="/controls/engines/engine[0]/throttle" value="0.5"/>

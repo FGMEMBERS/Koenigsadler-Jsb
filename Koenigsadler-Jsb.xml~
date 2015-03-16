@@ -380,8 +380,8 @@
 				<y> -100.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -391,8 +391,8 @@
 				<y> 100.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -402,8 +402,8 @@
 				<y> -200.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -413,8 +413,8 @@
 				<y> 200.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -424,8 +424,8 @@
 				<y> -300.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -435,8 +435,8 @@
 				<y> 300.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 8200.00 </capacity>
-			<contents unit="LBS"> 8200.00 </contents>
+			<capacity unit="LBS"> 7200.00 </capacity>
+			<contents unit="LBS"> 7200.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 	
@@ -446,8 +446,8 @@
 				<y>   0.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 15400.00 </capacity>
-			<contents unit="LBS"> 15400.00 </contents>
+			<capacity unit="LBS"> 14400.00 </capacity>
+			<contents unit="LBS"> 14400.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 
@@ -457,8 +457,8 @@
 				<y>   0.00 </y>
 				<z> -33.66 </z>
 			</location>
-			<capacity unit="LBS"> 15400.00 </capacity>
-			<contents unit="LBS"> 15400.00 </contents>
+			<capacity unit="LBS"> 14400.00 </capacity>
+			<contents unit="LBS"> 14400.00 </contents>
 			<type> AVGAS </type>
 		</tank>
 

@@ -1,2 +1,2 @@
-aircraft.livery.init("Aircraft/Koenigsadler-Jsb/Models/Liveries");
+aircraft.livery.init("Aircraft/Junkers-Ju-390/Models/Liveries");
 

@@ -25,7 +25,7 @@
 	<maxpitch> 90 </maxpitch>
 	<constspeed> 0 </constspeed>
 	<minrpm>   500 </minrpm>
-	<maxrpm>   2700 </maxrpm>
+	<maxrpm>   1800 </maxrpm>
 	<ct_factor> 1.5 </ct_factor>
 	<cp_factor> 1.5 </cp_factor>
 
