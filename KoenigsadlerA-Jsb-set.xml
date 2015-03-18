@@ -43,7 +43,7 @@
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
-			<path>Aircraft/Koenigsadler-Jsb/Models/ju390A.xml</path>
+			<path>Aircraft/Koenigsadler-Jsb/Models/KoenigsadlerA.xml</path>
 
 			<!-- JPack: push forces for Voodoomaster Pushback -->
 			<pushback>
