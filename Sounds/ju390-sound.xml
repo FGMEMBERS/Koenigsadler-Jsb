@@ -7,7 +7,7 @@
     <!-- Moteur 1 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[0]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -47,7 +47,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[0]/running</property>
       <volume>
         <property>/engines/engine[0]/mp-osi</property>
@@ -80,7 +80,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[0]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -106,7 +106,7 @@
     <!-- Moteur 2 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[1]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -146,7 +146,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[1]/running</property>
       <volume>
         <property>/engines/engine[1]/mp-osi</property>
@@ -179,7 +179,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[1]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -205,7 +205,7 @@
     <!-- Moteur 3 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[2]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -245,7 +245,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[2]/running</property>
       <volume>
         <property>/engines/engine[2]/mp-osi</property>
@@ -278,7 +278,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[2]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -304,7 +304,7 @@
     <!-- Moteur 4 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[3]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -344,7 +344,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[3]/running</property>
       <volume>
         <property>/engines/engine[3]/mp-osi</property>
@@ -377,7 +377,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[3]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -403,7 +403,7 @@
     <!-- Moteur 5 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[4]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -443,7 +443,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[4]/running</property>
       <volume>
         <property>/engines/engine[4]/mp-osi</property>
@@ -476,7 +476,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[4]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -502,7 +502,7 @@
     <!-- Moteur 6 -->
     <crank>
       <name>engstart</name>
-      <path>Aircraft/Junkers-Ju-390/Sounds/starter.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/starter.wav</path>
       <property>/engines/engine[5]/cranking</property>
       <volume>
         <offset>0.4</offset>
@@ -542,7 +542,7 @@
     <engine>
       <name>engine</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/running.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/running.wav</path>
       <property>/engines/engine[5]/running</property>
       <volume>
         <property>/engines/engine[5]/mp-osi</property>
@@ -575,7 +575,7 @@
     <propeller>
       <name>propeller</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/propeller.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/propeller.wav</path>
       <property>/engines/engine[5]/running</property>
       <volume>
         <property>/orientation/alpha-deg</property>
@@ -694,7 +694,7 @@
     <wind>
       <name>wind</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/wind.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/wind.wav</path>
       <property>/velocities/airspeed-kt</property>
       <volume>
         <property>/velocities/airspeed-kt</property>
@@ -715,7 +715,7 @@
     <stall>
       <name>stall</name>
       <mode>looped</mode>
-      <path>Aircraft/Junkers-Ju-390/Sounds/stall.wav</path>
+      <path>Aircraft/Koenigsadler-Jsb/Sounds/stall.wav</path>
       <property>/sim/alarms/stall-warning</property>
       <volume>
         <property>/sim/alarms/stall-warning</property>

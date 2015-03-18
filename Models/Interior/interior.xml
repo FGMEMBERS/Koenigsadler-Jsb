@@ -39,7 +39,7 @@
 
   <!-- Pilote -->
   <model>
-    <path>Aircraft/Junkers-Ju-390/Models/Pilot/pilot.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb/Models/Pilot/pilot.xml</path>
     <offsets>
       <x-m> -14.60 </x-m>
       <y-m>  -0.54 </y-m>
@@ -49,7 +49,7 @@
 
   <!-- Planche de bord -->
   <model>
-    <path>Aircraft/Junkers-Ju-390//Models/Interior/Panel/panel.xml</path>
+    <path>Aircraft/Koenigsadler-Jsb//Models/Interior/Panel/panel.xml</path>
     <offsets>
       <x-m> -15.19856 </x-m>
       <y-m>   0.00000 </y-m>
