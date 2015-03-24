@@ -536,7 +536,6 @@
 		</voodoomaster>
 		<koenigsadler>
 			<file>Aircraft/Koenigsadler-Jsb/Nasal/liveries.nas</file>
-			<file>Aircraft/Koenigsadler-Jsb/Nasal/fuelsystem.nas</file>
 		</koenigsadler>
 	</nasal>
 

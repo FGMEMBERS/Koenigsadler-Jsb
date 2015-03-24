@@ -529,14 +529,13 @@
 		<dual_control_tools>
 			<file>Aircraft/Generic/DualControl/dual-control-tools.nas</file>
 		</dual_control_tools>
-		<voodoomaster>
+		<!-- voodoomaster>
 			<file>Aircraft/Koenigsadler-Jsb/Systems/Pushback.nas</file>
 			<file>Aircraft/Koenigsadler-Jsb/Systems/ground_handling.nas</file>
 			<file>Aircraft/Koenigsadler-Jsb/Systems/mp-network.nas</file>
-		</voodoomaster>
+		</voodoomaster -->
 		<koenigsadler>
 			<file>Aircraft/Koenigsadler-Jsb/Nasal/liveries.nas</file>
-			<file>Aircraft/Koenigsadler-Jsb/Nasal/fuelsystem.nas</file>
 		</koenigsadler>
 	</nasal>
 
