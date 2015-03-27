@@ -21,7 +21,7 @@
 		<status>Alpha</status>
 		<!-- 
 			Currently: 
-			Multiply via FG-MP-Network cancelled, integration of Voodoomaster and SkyNet planned
+			Multiplay via FG-MP-Network cancelled, integration of Voodoomaster and SkyNet planned
 		-->
 
 		<rating>
@@ -44,7 +44,7 @@
 		<!-- Settings for model -->
 		<model>
 			<!-- Path to main model file -->
-			<path>Aircraft/Koenigsadler-Jsb/Models/ju390.xml</path>
+			<path>Aircraft/Koenigsadler-Jsb/Models/Koenigsadler.xml</path>
 
 			<!-- JPack: push forces for Voodoomaster Pushback -->
 			<pushback>
@@ -507,7 +507,6 @@
 		</voodoomaster>
 		<koenigsadler>
 			<file>Aircraft/Koenigsadler-Jsb/Nasal/liveries.nas</file>
-			<file>Aircraft/Koenigsadler-Jsb/Nasal/fuelsystem.nas</file>
 		</koenigsadler>
 	</nasal>
 
