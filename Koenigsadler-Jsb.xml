@@ -102,14 +102,14 @@
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> -217.85 </y>
-				<z> -70.00 </z>
+				<z> -66.00 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT">      450100.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">  45000.00 </damping_coeff>
-			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
+			<damping_coeff unit="LBS/FT/SEC"> 245500.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">45000</damping_coeff_rebound>
 			<max_steer unit="DEG">0</max_steer>
 			<brake_group>LEFT</brake_group>
 			<retractable>1</retractable>
@@ -119,14 +119,14 @@
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> 217.85 </y>
-				<z> -70.00 </z>
+				<z> -66.00 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT">      450100.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">  45000.00 </damping_coeff>
-			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
+			<damping_coeff unit="LBS/FT/SEC"> 245500.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">45000</damping_coeff_rebound>
 			<max_steer unit="DEG">0</max_steer>
 			<brake_group>RIGHT</brake_group>
 			<retractable>1</retractable>
@@ -136,14 +136,14 @@
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> -337.85 </y>
-				<z> -70.00 </z>
+				<z> -66.00 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT">      450100.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">  45000.00 </damping_coeff>
-			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
+			<damping_coeff unit="LBS/FT/SEC"> 245500.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">45000</damping_coeff_rebound>
 			<max_steer unit="DEG">0</max_steer>
 			<brake_group>LEFT</brake_group>
 			<retractable>1</retractable>
@@ -153,14 +153,14 @@
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> 337.85 </y>
-				<z> -70.00 </z>
+				<z> -66.00 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
 			<rolling_friction> 0.02 </rolling_friction>
 			<spring_coeff unit="LBS/FT">      450100.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC">  45000.00 </damping_coeff>
-			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
+			<damping_coeff unit="LBS/FT/SEC"> 245500.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">45000</damping_coeff_rebound>
 			<max_steer unit="DEG">0</max_steer>
 			<brake_group>RIGHT</brake_group>
 			<retractable>1</retractable>
@@ -168,9 +168,9 @@
 
 		<contact type="BOGEY" name="TAIL">
 			<location unit="IN">
-				<x> 1260.08 </x>
+				<x> 1320.08 </x>
 				<y>   0.00 </y>
-				<z> 50 </z>
+				<z> 52 </z>
 			</location>
 			<static_friction>  0.80 </static_friction>
 			<dynamic_friction> 0.50 </dynamic_friction>
@@ -188,48 +188,52 @@
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> -217.85 </y>
-				<z> -66.00 </z>
+				<z> -62.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
 			<spring_coeff unit="LBS/FT"> 999999.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC"> 99999.00 </damping_coeff>
+			<damping_coeff unit="LBS/FT/SEC"> 999999.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
 		</contact>
 
 		<contact type="BOGEY" name="INNER_RIGHT_MAIN_STOPPER">
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> 217.85 </y>
-				<z> -66.00 </z>
+				<z> -62.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
 			<spring_coeff unit="LBS/FT"> 999999.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC"> 99999.00 </damping_coeff>
+			<damping_coeff unit="LBS/FT/SEC"> 999999.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
 		</contact>
 
 		<contact type="BOGEY" name="OUTER_LEFT_MAIN_STOPPER">
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> -337.85 </y>
-				<z> -66.00 </z>
+				<z> -62.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
 			<spring_coeff unit="LBS/FT"> 999999.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC"> 99999.00 </damping_coeff>
+			<damping_coeff unit="LBS/FT/SEC"> 999999.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
 		</contact>
 
 		<contact type="BOGEY" name="OUTER_RIGHT_MAIN_STOPPER">
 			<location unit="IN">
 				<x> 480.94 </x>
 				<y> 337.85 </y>
-				<z> -66.00 </z>
+				<z> -62.00 </z>
 			</location>
 			<static_friction>  1.00 </static_friction>
 			<dynamic_friction> 1.00 </dynamic_friction>
 			<spring_coeff unit="LBS/FT"> 999999.00 </spring_coeff>
-			<damping_coeff unit="LBS/FT/SEC"> 99999.00 </damping_coeff>
+			<damping_coeff unit="LBS/FT/SEC"> 999999.00 </damping_coeff>
+			<damping_coeff_rebound unit="LBS/FT/SEC">65000</damping_coeff_rebound>
 		</contact>
 
 		<contact type="STRUCTURE" name="LEFT_WING">
@@ -767,10 +771,10 @@
           <table>
             <independentVar lookup="row">aero/alpha-rad</independentVar>
             <tableData>
-              -0.20 -0.740
-               0.00  0.300
-               0.24  1.750
-               0.60  0.875
+              -0.20 -0.940
+               0.00  0.700
+               0.24  1.950
+               0.60  1.075
             </tableData>
           </table>
       </product>
@@ -802,7 +806,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/elevator-pos-rad</property>
-           <value>0.23</value>
+           <value>0.25</value>
        </product>
     </function>
 
@@ -861,7 +865,7 @@
            <property>aero/qbar-psf</property>
            <property>metrics/Sw-sqft</property>
            <property>fcs/flap-pos-deg</property>
-           <value> 0.00137 </value>
+           <value> 0.00157 </value>
          </product>
     </function>
 
