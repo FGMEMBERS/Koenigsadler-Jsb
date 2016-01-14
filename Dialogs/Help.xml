@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+	<title>Junkers 390</title>
+	<key>
+		<name>0</name>
+		<desc>Engine Cruise Setting</desc>
+	</key>
+	<key>
+		<name>1</name>
+		<desc>Engine Take off/Escape setting</desc>
+	</key>
+	<key>
+		<name>2</name>
+		<desc>Engine Crazy Mode</desc>
+	</key>
+
+	<line/>
+	<line>Specs</line>
+	<line>Crew 7-10</line>
+	<line>Length 34.20m (112ft 2in)</line>
+	<line>Wingspan 50.30m (165ft 1in)</line>
+	<line/>
+	<line>max speed in Escape Setting 272 knots</line>
+	<line>cruise speed in Cruise Setting Setting 200 knots</line>
+	<line>Service ceiling 6000m (19700ft)</line>
+	<line>VR depending on weight 90-100 knots</line>
+	<line>VL depending on weight 70-90 knots</line>
+	<line/>
+	<line>Engine modes</line>
+	<line>0 - Cruise Boost, about 32 hours air endurance</line>
+	<line>1 - Take off and escpae boost, about 12 hours air endurance</line>
+	<line>2 - Crazy mode, unrelaistiv fast anf high, about 6 hours air endurance</line>
+	<line/>
+	<line/>
+	<line>Typical Situations</line>
+	<line>4000m (12000ft) cruise, Cruise Mode</line>
+	<line>6000m (19700ft) for escape (up to max speed) or fast cruise in Escpae Mode</line>
+	<line>Take off in Take off / Escape mode</line>
+	<line>Approach/Landing in Take off / Escape mode</line>
+	<line/>
+
+</PropertyList>
